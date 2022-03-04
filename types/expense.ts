@@ -1,6 +1,6 @@
 export type ExpenseType = {
-  id: number
+  id?: number
   name: string
   sum: number
-  expance_at: string
+  expense_at: string
 }
